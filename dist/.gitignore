@@ -2,4 +2,9 @@
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 # Useful .gitignore templates: https://github.com/github/gitignore
 
+#the format below ignores a file
 /credentials.py
+
+#the format below ignores the contents of a folder when no specifier
+#Or use specifier for certain files types such as .txt
+text/*.txt
